@@ -1,0 +1,920 @@
+h4 {
+    font-size: medium;
+    font-weight: 700;
+}
+
+p {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    padding-bottom: 0;
+}
+
+html {
+    padding: 0;
+}
+
+main {
+    padding: 0 50px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page {
+    display: flex;
+    flex-direction: row;
+    margin-top: 39px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+
+
+}
+
+.haut {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bouton-nav {
+    padding-top: 48px;
+    padding-right: 33px;
+    padding-left: 34px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: -8px;
+    color: #0065FC;
+}
+
+.bouton-nav:hover {
+    border-top: solid;
+    color: #0065FC;
+}
+
+.icon-map-div {
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 15px;
+    background: #F2F2F2;
+}
+
+.intro {
+    margin-top: 31px;
+
+
+}
+
+.intro h2 {
+    font-weight: 700;
+    margin-top: 8px;
+    font-size: 22px;
+}
+
+.icon-map {
+    color: #000;
+    width: auto;
+}
+
+#filtre {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-bottom: 36px;
+    align-items: center;
+}
+
+#filtre h2 {
+    margin: 0;
+
+}
+
+#barre-recherche {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    width: 60%;
+
+}
+
+
+.zone-texte {
+    border: hidden;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    outline: none;
+}
+
+.bouton-rechrche {
+    display: flex;
+    align-items: center;
+    float: right;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-width: 1px;
+    background-color: #0065FC;
+    font-size: large;
+    padding: 14px 16px 14px 16px;
+    margin-left: 1em;
+    font-weight: bold;
+
+}
+
+.bouton-rechrche p {
+
+    color: white;
+    margin: 0;
+}
+
+.bouton-rechrche i {
+    display: none;
+}
+
+.zone-texte {
+    font-weight: 600;
+}
+
+
+.icon-map {
+    color: #000;
+    width: auto;
+}
+
+#section-bouton-filtre {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: auto;
+    background-color: #ffffff;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    border: solid rgb(0, 0, 0);
+    border-width: 1px;
+    text-align: left;
+    padding: 14px 20px 14px 20px;
+    margin-left: 39px;
+}
+
+#activité {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.lieu-activitée {
+    margin-bottom: 60px;
+    border-radius: 15px;
+
+}
+
+
+
+i {
+    color: #0065FC;
+    margin-right: 5px;
+}
+
+.bouton-nav:hover a {
+    color: #0065FC;
+}
+
+#populaire img {
+    object-fit: cover;
+    width: 45%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.chambre-populaire {
+    display: flex;
+    flex-direction: row;
+    border-color: rgb(25, 111, 196);
+    background-color: white;
+    border: rgb(255, 255, 255);
+    border-width: 5px;
+    border-radius: 20px;
+    border: solid;
+    box-shadow: 1px 1px 3px rgb(184, 184, 184);
+    border-color: white;
+    margin-bottom: 33px;
+    height: 144px;
+}
+
+.chambre-populaire a {
+    display: flex;
+}
+
+#marseille img {
+    object-fit: cover;
+    width: 100%;
+    height: 124px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+
+#marseille {
+    width: 61%;
+    float: left;
+    margin-right: 40px;
+    padding-right: 40px;
+    margin-left: 5px;
+    background: #F2F2F2;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-top: 42px;
+
+}
+
+#marseille h2 {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+
+.chambre-marseille {
+    width: 30%;
+    height: 200px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 20px;
+    border-width: 5px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 3px rgb(184, 184, 184);
+}
+
+.section-chambre-marseille {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.chambre-marseille .info {
+    padding-left: 16px;
+}
+
+.chambre-marseille h4 {
+    margin: 9px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#populaire {
+    padding-left: 37px;
+    padding-right: 40px;
+    padding-top: 41px;
+    width: 28%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background: #F2F2F2;
+    border-radius: 15px;
+    padding-bottom: 34px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.titre {
+    margin-bottom: 46px;
+}
+
+#populaire h2 {
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.derniere-etoile {
+    color: #F2F2F2;
+}
+
+#activité {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#activité h2 {
+    width: 100%;
+}
+
+#activité h3 {
+    padding: 20px;
+}
+
+.lieu-activitée {
+    width: 23%;
+    box-shadow: 1px 1px 3px rgb(184, 184, 184);
+    margin-top: 19px;
+    background-color: white;
+}
+
+.lieu-activitée img {
+    width: 100%;
+    height: 389px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+footer {
+    padding: 45px;
+    padding-left: 70px;
+    margin-left: 48px;
+    margin-right: 53px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    padding: 0;
+    margin-bottom: 12px;
+    font-size: large;
+}
+
+footer li:hover {
+    font-style: normal;
+    color: #0065FC;
+
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
+
+a,
+h4,
+h3,
+h2 {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Raleway';
+
+}
+
+.chambre-populaire h4 {
+    margin: 0;
+}
+
+#populaire .fa-chart-line {
+    float: right;
+    font-size: large;
+}
+
+.titre {
+    font-weight: 700;
+}
+
+.logo {
+    padding-top: 44px;
+    padding-left: 55px;
+    width: 61px;
+    height: 19px;
+}
+
+.chambre-populaire .info {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 15px 15px 12px;
+}
+
+.chambre-populaire .etoile {
+    display: flex;
+    align-items: end;
+    flex: 1;
+}
+
+.chambre-populaire .etoile i {
+    padding-right: 8px;
+    font-size: small;
+    width: 3px;
+
+}
+
+.chambre-marseille .info .etoile i {
+    margin-right: 10px;
+    font-size: small;
+    width: 3px;
+
+}
+
+.colonne {
+    width: 30%;
+}
+
+.button:hover {
+    background-color: #bdd6fd;
+    color: #0065FC;
+}
+
+.cercle {
+    float: left;
+    box-sizing: border-box;
+    border: solid;
+    border: 1px solid #D9D9D9;
+    padding-left: 5px;
+    border-radius: 50%;
+    margin-right: 11px;
+    margin-top: -5px;
+}
+
+.cercle i {
+    padding: 7px;
+}
+
+@media screen and (max-width:992px) {
+    .haut {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+
+    #page {
+        display: flex;
+        flex-direction: column;
+        margin-top: 39px;
+        justify-content: space-between;
+    }
+
+
+    .bouton-rechrche {
+        display: flex;
+        align-items: center;
+        float: right;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-width: 1px;
+        background-color: #0065FC;
+        font-size: large;
+        font-weight: bolder;
+        padding: 14px 16px 14px 16px;
+        margin-left: 1em;
+    }
+
+    .bouton-rechrche p {
+        color: white;
+    }
+
+    .bouton-rechrche i {
+        display: none;
+    }
+
+
+    .button {
+        width: auto;
+        background-color: #ffffff;
+        border: 2px solid #D9D9D9;
+        border-radius: 25px;
+        border: solid rgb(0, 0, 0);
+        border-width: 1px;
+        text-align: left;
+        padding: 14px 20px 14px 20px;
+        margin-right: 5px;
+        margin-left: 17px;
+        margin-bottom: 17px;
+    }
+
+    #marseille {
+        width: fit-content;
+        margin: 0;
+
+
+    }
+
+    .chambre-marseille {
+        width: 30%;
+        height: auto;
+    }
+
+    .chambre-marseille .info {
+        width: 66%;
+
+    }
+
+    #populaire {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: #F2F2F2;
+        justify-content: space-between;
+        margin-top: 53px;
+
+    }
+
+    .chambre-populaire {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        border-color: rgb(25, 111, 196);
+        background-color: white;
+        border: rgb(255, 255, 255);
+        border-width: 5px;
+        border-radius: 20px;
+        border: solid;
+        border-color: white;
+    }
+
+    .chambre-populaire img {
+        margin: 0;
+        width: 40%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .lieu-activitée {
+        width: 20%;
+        background-color: white;
+    }
+
+    .lieu-activitée img {
+        height: 211px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    a {
+        color: #000;
+
+    }
+
+    .logo {
+        margin-top: 21px;
+        margin-bottom: 21px;
+        padding: 0;
+    }
+
+    .intro p {
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    .haut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    nav {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bouton-nav {
+        width: 50%;
+        padding-bottom: 23px;
+        padding-top: 43px;
+        font-weight: 400;
+        font-size: 16px;
+        border-bottom: solid;
+        border-bottom-color: #F2F2F2;
+        color: #284167;
+    }
+
+    .bouton-nav:hover {
+        border-top: hidden;
+
+        color: #0065FC;
+        border-bottom: solid;
+    }
+
+    #page {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    .intro {
+        margin-top: 31px;
+        margin-left: 20px;
+        margin-right: 21px;
+    }
+
+    #filtre {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #barre-recherche {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 36px;
+        align-items: center;
+
+    }
+
+    .zone-texte {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .bouton-rechrche {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-width: 1px;
+        background-color: #0065FC;
+        color: rgb(253, 253, 253);
+
+    }
+
+    .bouton-rechrche p {
+        display: none;
+    }
+
+    .bouton-rechrche i {
+        display: block;
+        color: rgb(255, 255, 255);
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .icon-map-div i {
+        padding: 15px;
+        text-align: center;
+        background-color: #F2F2F2;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .icon-map-div {
+        padding: 0;
+    }
+
+    .icon-map {
+
+        color: #000;
+        width: auto;
+
+    }
+
+    .button {
+        height: fit-content;
+        background-color: #ffffff;
+        border: 2px solid #D9D9D9;
+        border-radius: 25px;
+        border: solid rgb(0, 0, 0);
+        border-width: 1px;
+        text-align: left;
+        padding: 14px;
+        margin-left: 0;
+        margin-top: 17px;
+        margin-bottom: 0;
+    }
+
+    .button a {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    #populaire {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        background: #F2F2F2;
+        margin-top: 17px;
+        padding-left: 21px;
+        padding-right: 20px;
+    }
+
+    #populaire .fa-chart-line {
+        margin-left: 0;
+    }
+
+    #marseille {
+        background-color: white;
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 26px;
+        padding-left: 21px;
+        padding-right: 20px;
+    }
+
+    #marseille h2 {
+        margin-bottom: 20px;
+    }
+
+    .chambre-marseille {
+        width: 100%;
+        object-fit: contain;
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        border-color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+
+    }
+
+    .chambre-marseille img {
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .chambre-marseille h4 {
+        font-size: larger;
+        margin: 0;
+    }
+
+    .chambre-marseille p {
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .chambre-marseille .info {
+        padding: 4px 11px 16px 16px;
+
+    }
+
+    .chambre-populaire {
+        width: 100%;
+        object-fit: contain;
+        display: flex;
+        flex-direction: row;
+        border: solid;
+        border-color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+    }
+
+    .chambre-populaire img {
+        margin: 0;
+        width: 30%;
+        object-fit: cover;
+        height: 140px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .chambre-populaire p {
+        font-weight: 400;
+        margin-top: 7px;
+
+    }
+
+    .chambre-populaire .info {
+        width: 66%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .chambre-populaire .etoile {
+        display: flex;
+        align-items: end;
+        flex: 1;
+    }
+
+    .chambre-populaire .etoile i {
+        padding-right: 8px;
+        font-size: small;
+        width: 3px;
+
+    }
+
+    #activité {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 21px;
+    }
+
+    #activité h2 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    #activité h3 {
+        padding: 0;
+        margin: 20px;
+    }
+
+    .lieu-activitée {
+        width: 100%;
+        object-fit: contain;
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        border-color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .lieu-activitée img {
+        margin: 0;
+        object-fit: cover;
+        height: 140px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .lieu-activitée h3 {
+        margin: 20px;
+    }
+
+    .etoile i {
+        margin-bottom: 1px;
+        width: 12px;
+    }
+
+    .derniere-etoile {
+        color: #F2F2F2;
+    }
+
+
+    footer {
+
+        margin: 0;
+        align-items: center;
+        display: flex;
+        padding-top: 0;
+        padding-left: 30px;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .colonne {
+        width: 100%;
+    }
+
+    footer ul {
+        width: 100%;
+        margin-bottom: 12px;
+        font-size: large;
+        font-weight: 400;
+
+
+    }
+
+    footer h3 {
+        font-size: larger;
+        width: 100%;
+        margin-top: 45px;
+
+
+    }
+
+}
